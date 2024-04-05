@@ -12,14 +12,22 @@ We currently do not have a bounty rewards program in place, and nor do we offer
 swags. However, we genuinely appreciate the vigilance and expertise of our user
 community in helping us maintain the highest security standards.
 
-We strive to ackknowledge receiving submissions within 5 working days, please
+We strive to acknowledge receiving submissions within 5 working days, please
 wait until that time has past before asking for a status update.
 
 The information contained in your report must be treated as embargoed and must
 not be shared publicly, unless explicitly agreed with us first. This is to
-protect the Rancher ecosystem users and enable us to follow through our
-coordinated disclosure process. The information shall be kept embargoed until
-a fix is released.
+protect the Harvester and Rancher ecosystem users and enable us to follow
+through our coordinated disclosure process. The information shall be kept
+embargoed until a fix is released.
+
+We extend our heartfelt thanks to the security researchers and users who
+diligently report vulnerabilities. Your invaluable contributions enhance our
+ability to improve our systems and protect our user community. We credit all
+accepted reports from users and security researchers in our security advisories:
+
+- [Harvester Security Advisories](https://github.com/harvester/harvester/security/advisories)
+- [Rancher Security Advisories](https://github.com/rancher/rancher/security/advisories)
 
 ### What information to provide
 
