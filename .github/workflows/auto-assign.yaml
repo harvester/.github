@@ -1,0 +1,16 @@
+name: Auto Assign
+
+on:
+  workflow_call:
+    inputs:
+      configuration-path:
+        required: true
+        type: string
+
+jobs:
+  auto-assign:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: rancher/gh-issue-mgr/auto-assign-action@main
+        with:
+          configuration-path: ${{ inputs.configuration-path }}
