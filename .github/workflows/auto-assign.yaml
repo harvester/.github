@@ -1,11 +1,7 @@
-name: Auto Assign
+name: [PR Management] Auto Assign
 
 on:
   workflow_call:
-    inputs:
-      configuration-path:
-        required: true
-        type: string
 
 jobs:
   auto-assign:
@@ -13,4 +9,4 @@ jobs:
     steps:
       - uses: rancher/gh-issue-mgr/auto-assign-action@main
         with:
-          configuration-path: ${{ inputs.configuration-path }}
+          configuration-path: .github/auto-assign-config.yaml
