@@ -1,0 +1,11 @@
+{
+  "name": "[PR Management] Auto Assign",
+  "description": "Automatically assigns reviewers to pull requests when they are opened or marked as ready for review",
+  "categories": [
+    "Pull requests",
+    "Automation"
+  ],
+  "filePatterns": [
+    ".github/auto-assign-config.yaml"
+  ]
+} 
