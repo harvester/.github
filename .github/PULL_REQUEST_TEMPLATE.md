@@ -1,6 +1,7 @@
 <!-- 
 !IMPORTANT!
-Please do not create a Pull Request without creating an issue first.
+Please do not create a Pull Request without creating an issue first
+at https://github.com/harvester/harvester/issues/new/choose
 -->
 
 #### Problem:
