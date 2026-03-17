@@ -2,6 +2,13 @@
 
 ## Reporting a Vulnerability
 
+> [!CAUTION]
+> Do not attempt to test a possible vulnerability or an exploit on systems that
+> you do not have an explicit authorization of its owner.
+> It's fine to report a theoretical vulnerability, one that doesn't have a proof
+> of concept (POC), in case you don't have access to an authorized system to
+> test.
+
 The Harvester team supports responsible disclosure and endeavors to resolve
 security issues in a reasonable timeframe. To report a security vulnerability,
 email security-rancher@suse.com. You may (but are not required to) use GPG for
@@ -39,7 +46,11 @@ incredibly helpful and much appreciated:
   observed on the source code, the link to the specific code in GitHub instead.
 - Description of the problem.
 - Type of the issue and impact when exploited.
-- Steps to reproduce or a proof of concept.
+- Steps to reproduce or a proof of concept (only on systems you are explicitly
+  authorized to test).
+- It is mandatory to inform if AI tools were used to find the issue being
+  reported, to automate or to write the report, POC code or possible patch. If
+  this was the case, then inform which AI tools and models were used.
 
 The more information you provide, the faster we will be able to reproduce the
 issue and address your concerns more effectively.
