@@ -131,6 +131,6 @@ well as how to make an anonymous report and more.
 
 [CVD Policy]: https://www.suse.com/support/security/cvd-policy/
 [advisories]: https://github.com/harvester/harvester/security/advisories
-[doc issue]: https://github.com/rancher/rancher-docs/issues/new/choose
+[doc issue]: https://github.com/harvester/harvester/issues/new/choose
 [product issue]: https://github.com/harvester/harvester/issues/new/choose
 [lifecycle]: https://www.suse.com/lifecycle/
