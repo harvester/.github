@@ -26,7 +26,7 @@ from the system owner.
 
 Example of valid reports:
 
-- XSS on Rancher Manager UI.
+- XSS on Harvester UI.
 - Privilege escalation through Rancher Manager RBAC.
 
 If you are unsure, check the types of issues NOT to report below.
